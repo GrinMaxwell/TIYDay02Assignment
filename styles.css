@@ -1,0 +1,59 @@
+.octodex {
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto;
+}
+.octocat {
+  -webkit-flex: 1;
+          flex: 1;
+  margin: 10px;
+}
+/*flex basics courtesy of http://learnlayout.com/flexbox.html*/
+li img{
+    height: 100%;
+    width: 100%;
+    border: .125px #E1E1E1 solid;
+}
+
+.authors img{
+  height: 20px;
+  width: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.image-number::before{
+  content:'#'
+}
+.image-number{
+  color:#CACACA;
+  font-style: Arial sans-serif;
+  display: inline-block;
+}
+.image-caption{
+  color:#777777;
+  display: inline-block;
+}
+.authors{
+  display: inline-block;
+  padding: 0px;
+}
+.image-footer{
+  border-bottom: .125px #E1E1E1 solid;
+  padding: 10px;
+  position: relative;
+}
+.image-caption{
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font-style: Arial sans-serif;
+}
+div.image-caption > span{
+  padding-bottom: 6px;
+}
+div.image-caption > a{
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: #333333;
+}
